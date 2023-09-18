@@ -1,8 +1,13 @@
 const express = require('express')
+const mongoose = require('mongoose')
+const dotenv = require('dotenv')
+dotenv.config();
 
-const mongoUrl = 'mongodb+srv://jhashim1305:<password>@cluster3.ik6obqj.mongodb.net/?retryWrites=true&w=majority'
+
 const app = express();
 
 app.listen(4040)
 
 // U5c6aLaZfI1feE1q
+
+// gtVW8W27dBdkEpkE
